@@ -1,14 +1,7 @@
 ## H2O
 
-[在线预览 View →](http://liaokeyu.com/)
+[在线预览 View →](https://katherinewei.github.io/)
 
-![](assets/img/jekyll-theme-h2o-realhome.jpg)
-
-![](assets/img/jekyll-theme-h2o-realm.png)
-
-If you like this theme or using it, please give a ⭐️ for motivation ;)
-
-如果你喜欢这个博客模板，请在右上角star一下，非常感谢～
 
 ### Preview
 
@@ -16,7 +9,7 @@ Using your smartphone to scan QR Code
 
 如果想体验手机浏览效果，可以扫一下二维码：
 
-![](assets/img/1494404591.png)
+![](assets/img/1504603019.png)
 
 ### Features 特性
 
@@ -56,7 +49,7 @@ Using your smartphone to scan QR Code
 
 点击右上角Fork按钮在你的Github上创建分支，或者```clone```到本地。
 
-``` git clone https://github.com/kaeyleo/jekyll-theme-H2O.git ```
+``` git clone https://github.com/katherinewei/katherinewei.github.io.git ```
 
 最后，在命令行输入 ```jekyll server``` 开启服务，就能在本地预览主题了。
 
@@ -93,10 +86,10 @@ You can easily get started by modifying _config.yml
 
 ```
 # Site settings
-title: '廖柯宇的独立博客' # 你的博客网站标题
+title: 'xxx的独立博客' # 你的博客网站标题
 description: '很高兴能在这里与你分享我对技术和生活的思考。' # 站点描述
-keyword: '廖柯宇, 廖柯宇的独立博客, 前端, 设计' # 网站关键词
-url: 'http://liaokeyu.com' # 站点url 
+keyword: 'xxx的独立博客, 前端, 设计' # 网站关键词
+url: 'https://katherinewei.github.io/' # 站点url
 baseurl: '/'
  
 # Build settings 
@@ -157,10 +150,10 @@ exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']
 ```
 # SNS settings 配置社交网站url
 sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+  weibo: '//weibo.com/xxx'
+  juejin: '//juejin.im/user/xxx'
+  instagram: '//www.instagram.com/xxx'
+  github: '//github.com/xxx'
 ```
 
 sns属性可选参数：
