@@ -1,59 +1,64 @@
-# All possible configuration.
-# For more see: http://jekyllrb.com/docs/configuration/
-destination: ./_site
-lsi:         false
-port:        4000
-highligher:  true
+# Site settings 配置站点
+title: '廖柯宇的独立博客'
+description: '昵称悟空，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
+keyword: '廖柯宇, 廖柯宇的独立博客, 廖柯宇的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
+url: 'http://liaokeyu.com' # your host
+baseurl: '/'
+
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
+
+# Author 配置博主信息
+author: '廖柯宇'
+nickname: '悟空'
+bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
+avatar: 'assets/img/profile.png'
+
+# Search
+search: true
+
+# Night mode
+nightMode: true
+
+# Comments
+disqus: false
+disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  weibo: '//weibo.com/lovecolcol'
+  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
+  instagram: '//www.instagram.com/steveliaocn'
+  github: '//github.com/kaeyleo'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
-markdown:    rdiscount
-rdiscount:
-  extensions: [smart]
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
 
-# This is the default base url path.
-BASE_PATH : http://meliodus.github.io/
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
 
-# Website title.
-title : talk2ankan<small>Introvert Geek Diaries</small>
+RSS: false
 
-# label listing. [create labels for category in folder `_label`]
-# social listing. [create labels for social in folder `_label`]
-collections:
-  - category
-  - social
-
-# This is the default format.
-# For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:title
-
-# Pagination based on number of posts
-# For more see: http://jekyllrb.com/docs/pagination/
-#paginate: 20
-#paginate_path: "page/:num"
-
-  ## Author Details ##
-###########################
-author:
-# Info
-  name: katherine ye
-  role: Computer Programmer
-  email: katherine@github.com
-  image: images/ankan.png
-# Social
-  github: meliodus
-  twitter: talk2ankan
-  facebook: talk2ankan
-  soundcloud: meliodus
-  reddit: talk2ankan
-#  About
-  about: "Salutation, this is my-space my-world. I dream , i hallucinate, i am curious and ambitious."
-# copyright
-  copyright: "Some rights reserved &#169; 2015 Ankan Biswas."
-
-# Disable custom plugins,and ignore symbolic links..
-# For more see: http://jekyllrb.com/docs/configuration/
-safe:    false
-# Jekyll-sitemap auto generate
-# For more see: https://github.com/jekyll/jekyll-sitemap
-gems:
-  - jekyll-sitemap
+# Plugins
+plugins: [jekyll-paginate]
