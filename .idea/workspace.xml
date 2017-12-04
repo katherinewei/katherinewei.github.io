@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0458bdc-b64b-4dd4-b27b-94b37ae73443" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-09-22-面试总结.md" afterPath="$PROJECT_DIR$/_posts/2017-09-22-面试总结.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-04-面试总结.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-09-22-面试总结.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +34,7 @@
       <file leaf-file-name="2017-09-05-一些JS方法总结.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-05-一些JS方法总结.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
+            <state relative-caret-position="7788">
               <caret line="236" column="37" lean-forward="false" selection-start-line="236" selection-start-column="37" selection-end-line="236" selection-end-column="37" />
               <folding />
             </state>
@@ -87,17 +88,17 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="784">
-              <caret line="402" column="36" lean-forward="false" selection-start-line="402" selection-start-column="36" selection-end-line="402" selection-end-column="36" />
+              <caret line="402" column="106" lean-forward="true" selection-start-line="402" selection-start-column="35" selection-end-line="402" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-22-面试总结.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-09-22-面试总结.md">
+      <file leaf-file-name="2017-12-04-面试总结.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-12-04-面试总结.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="490">
+              <caret line="402" column="24" lean-forward="true" selection-start-line="402" selection-start-column="24" selection-end-line="402" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -380,12 +381,12 @@
       <updated>1504584277526</updated>
       <workItem from="1504584279687" duration="9857000" />
       <workItem from="1504660832351" duration="617000" />
-      <workItem from="1512370718952" duration="2619000" />
+      <workItem from="1512370718952" duration="4022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13093000" />
+    <option name="totallyTimeSpent" value="14496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -690,22 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="402" column="36" lean-forward="false" selection-start-line="402" selection-start-column="36" selection-end-line="402" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-09-05-一些JS方法总结.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="236" column="37" lean-forward="false" selection-start-line="236" selection-start-column="37" selection-end-line="236" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-05-移动H5前端性能优化指南.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3333">
@@ -722,10 +707,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-09-22-面试总结.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-05-一些JS方法总结.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="7788">
+          <caret line="236" column="37" lean-forward="false" selection-start-line="236" selection-start-column="37" selection-end-line="236" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="402" column="106" lean-forward="true" selection-start-line="402" selection-start-column="35" selection-end-line="402" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-04-面试总结.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="402" column="24" lean-forward="true" selection-start-line="402" selection-start-column="24" selection-end-line="402" selection-end-column="24" />
           <folding />
         </state>
       </provider>
